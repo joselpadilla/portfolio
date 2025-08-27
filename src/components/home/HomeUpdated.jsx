@@ -51,8 +51,8 @@ const HomeUpdated = () => {
       {/* Navigation Bar Placeholder */}
       <NavBarPlaceholder>
         <Typography
-          variant="h6"
-          color="primary.contrastText">
+          variant='h6'
+          color='primary.contrastText'>
           My Portfolio
         </Typography>
       </NavBarPlaceholder>
@@ -69,15 +69,15 @@ const HomeUpdated = () => {
           }}>
           <Typography
             variant={isMobile ? 'h4' : 'h2'}
-            component="h1"
-            color="text.primary"
-            fontWeight="bold"
+            component='h1'
+            color='text.primary'
+            fontWeight='bold'
             gutterBottom>
             Jose Padilla
           </Typography>
           <AvatarContainer>
             <StyledAvatar
-              alt="Profile Picture"
+              alt='Profile Picture'
               src={jlpr} // Replace with your actual avatar URL
             />
           </AvatarContainer>
@@ -86,25 +86,26 @@ const HomeUpdated = () => {
         <Box>
           <Typography
             variant={isMobile ? 'h6' : 'h5'}
-            component="h2"
-            color="text.secondary">
+            component='h2'
+            color='text.secondary'>
             Backend Developer | Java Enthusiast
           </Typography>
         </Box>
 
-        <Box maxWidth="md">
+        <Box maxWidth='md'>
           <Typography
-            align="justify"
-            variant="body1"
-            color="text.primary"
+            align='justify'
+            variant='body1'
+            color='text.primary'
             paragraph>
-            Welcome to my backend Java development portfolio. I am a passionate
-            and dedicated Java developer specializing in building robust,
-            scalable, and efficient backend systems. This portfolio showcases a
-            selection of my projects, demonstrating my expertise in Java, Spring
-            Boot, microservices, API development, and database management.
-            Explore my work to see how I leverage modern Java technologies to
-            solve complex challenges and deliver high-quality solutions.
+            Welcome to my UPDATED backend Java development portfolio. I am a
+            passionate and dedicated Java developer specializing in building
+            robust, scalable, and efficient backend systems. This portfolio
+            showcases a selection of my projects, demonstrating my expertise in
+            Java, Spring Boot, microservices, API development, and database
+            management. Explore my work to see how I leverage modern Java
+            technologies to solve complex challenges and deliver high-quality
+            solutions.
           </Typography>
         </Box>
       </ContentContainer>
