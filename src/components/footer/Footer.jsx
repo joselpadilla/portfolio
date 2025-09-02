@@ -15,7 +15,7 @@ const Footer = () => {
         <Typography
           variant='body2'
           color='text.secondary'>
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Jose Padilla. All rights reserved.
         </Typography>
       </Container>
     </Box>

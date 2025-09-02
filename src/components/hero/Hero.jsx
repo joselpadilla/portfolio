@@ -83,7 +83,7 @@ const Hero = () => {
             color='primary'
             size='large'
             sx={{ marginTop: 4, borderRadius: 2 }}
-            href='#projects'>
+            href='#about'>
             View My Work
           </Button>
         </Box>
