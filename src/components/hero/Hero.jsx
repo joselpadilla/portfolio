@@ -32,8 +32,7 @@ const Hero = () => {
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
-        backgroundImage:
-          'radial-gradient(circle, rgba(227, 237, 242, 0.1) 0%, rgba(18,18,18,1) 70%)',
+        backgroundImage: `radial-gradient(circle, ${theme.palette.secondary.main} 0%, ${theme.palette.primary.main} 70%)`,
       }}>
       <Container maxWidth='md'>
         <Box
@@ -70,12 +69,13 @@ const Hero = () => {
           <Typography
             variant='h2'
             component='h1'
+            color='primary'
             gutterBottom>
             Hi, I'm Jose Padilla
           </Typography>
           <Typography
             variant='h5'
-            color='text.secondary'>
+            color='primary'>
             I am Backend Developer | Java Enthusiast.
           </Typography>
           <Button

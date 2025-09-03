@@ -6,13 +6,14 @@ import {
   Toolbar,
   IconButton,
   Button,
+  useTheme,
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import Navigation from '../navigation/Navigation'
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false)
-
+  const theme = useTheme()
   const handleDrawerToggle = () => {
     setDrawerOpen(!drawerOpen)
   }
@@ -22,7 +23,7 @@ const Header = () => {
       position='fixed'
       sx={{
         backdropFilter: 'blur(10px)',
-        backgroundColor: 'rgba(29, 29, 29, 0.7)',
+        backgroundColor: `${theme.palette.primary.main}`, // semi-transparent
       }}>
       <Toolbar>
         <Typography
@@ -32,10 +33,9 @@ const Header = () => {
           My Portfolio
         </Typography>
         <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-          {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((text) => (
+          {['Home', 'About', 'Experience', 'Skills', 'Contact'].map((text) => (
             <Button
               key={text}
-              sx={{ color: 'white' }}
               href={`#${text.toLowerCase()}`}>
               {text}
             </Button>

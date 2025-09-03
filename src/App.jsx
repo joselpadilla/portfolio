@@ -1,17 +1,18 @@
 import './App.css'
 import { ThemeProvider, CssBaseline, Box } from '@mui/material'
-import theme from './MuiTheme'
+//import theme from './MuiTheme'
+import themeTest from './MuiThemeTest'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
-import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Experience from './components/experience/Experience'
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={themeTest}>
       <CssBaseline />
       <Box
         sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -19,7 +20,7 @@ const App = () => {
         <Hero />
         <Box sx={{ flex: 1 }}>
           <About />
-          {/*<Projects />*/}
+          <Experience />
           <Skills />
           <Contact />
         </Box>

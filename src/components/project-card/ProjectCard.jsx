@@ -11,7 +11,9 @@ import {
 const ProjectCard = ({ title, description, image, githubLink, liveLink }) => (
   <Card sx={{ maxWidth: 345, margin: 'auto', borderRadius: 2 }}>
     <CardMedia
-      component='div'
+      component='img' // or "picture", "video", etc. depending on your media type
+      image={image} // Local path or URL
+      alt='Descriptive text for the image'
       sx={{
         height: 200,
         backgroundColor: 'rgba(255, 255, 255, 0.05)',
@@ -19,13 +21,8 @@ const ProjectCard = ({ title, description, image, githubLink, liveLink }) => (
         alignItems: 'center',
         justifyContent: 'center',
         p: 2,
-      }}>
-      <Typography
-        variant='subtitle1'
-        color='text.secondary'>
-        {image}
-      </Typography>
-    </CardMedia>
+        objectFit: 'contain',
+      }}></CardMedia>
     <CardContent>
       <Typography
         gutterBottom

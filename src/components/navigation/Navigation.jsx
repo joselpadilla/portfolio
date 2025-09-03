@@ -25,7 +25,7 @@ const Navigation = ({ open, onClose }) => {
         onClick={onClose}
         role='presentation'>
         <List>
-          {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((text) => (
+          {['Home', 'About', 'Experience', 'Skills', 'Contact'].map((text) => (
             <ListItem
               key={text}
               disablePadding>
