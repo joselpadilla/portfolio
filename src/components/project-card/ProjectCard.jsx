@@ -35,7 +35,7 @@ const ProjectCard = ({ title, description, image, githubLink, liveLink }) => (
         color='text.secondary'>
         {description}
       </Typography>
-      <Box
+      {/*       <Box
         sx={{ display: 'flex', justifyContent: 'space-between', marginTop: 2 }}>
         <Button
           size='small'
@@ -54,6 +54,7 @@ const ProjectCard = ({ title, description, image, githubLink, liveLink }) => (
           Live Demo
         </Button>
       </Box>
+ */}{' '}
     </CardContent>
   </Card>
 )
