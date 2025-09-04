@@ -1,7 +1,7 @@
 import './App.css'
 import { ThemeProvider, CssBaseline, Box } from '@mui/material'
 //import theme from './MuiTheme'
-import themeTest from './MuiThemeTest'
+import theme from './MuiTheme'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
@@ -12,7 +12,7 @@ import Experience from './components/experience/Experience'
 
 const App = () => {
   return (
-    <ThemeProvider theme={themeTest}>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
       <Box
         sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>

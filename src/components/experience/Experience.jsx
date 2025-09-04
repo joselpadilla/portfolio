@@ -14,7 +14,7 @@ const Experience = () => {
            Mentored 5 engineers in TDD and code quality best practices, increasing team velocity by 25%.
 
            Collaborated with cross-functional teams in Agile/Scrum, enhancing communication and reducing project delivery times by 20%.`,
-      image: '/src/assets/globant.png',
+      image: '/assets/globant.png',
       githubLink: '#',
       liveLink: '#',
     },
@@ -29,7 +29,7 @@ const Experience = () => {
           Developed and maintained enterprise applications, integrating with relational databases like SQL Server and improving overall system efficiency.
 
           Provided technical leadership to a team of three developers, conducting code reviews and mentoring to ensure adherence to best practices and high code quality.`,
-      image: '/src/assets/Softtek.png',
+      image: '/assets/softtek.png',
       githubLink: '#',
       liveLink: '#',
     },
@@ -42,7 +42,7 @@ const Experience = () => {
         Developed comprehensive project estimations and plans, ensuring efficient resource allocation.
         
         Led the gathering of Software Requirements Specifications (SRS), work planning, analysis, and design for custom internal applications.`,
-      image: '/src/assets/INEGI.png',
+      image: '/assets/inegi.png',
       githubLink: '#',
       liveLink: '#',
     },

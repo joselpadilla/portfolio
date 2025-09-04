@@ -7,7 +7,7 @@ import {
   useTheme,
 } from '@mui/material'
 import { styled } from '@mui/system'
-import jlpr from '../../assets/jlpr.jpg'
+import jlpr from '/assets/jlpr.jpg'
 
 const Hero = () => {
   const theme = useTheme()
