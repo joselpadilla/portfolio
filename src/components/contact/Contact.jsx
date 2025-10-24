@@ -20,7 +20,7 @@ const Contact = () => (
       </Typography>
       <Box sx={{ marginTop: 2 }}>
         <IconButton
-          color='primary'
+          color='primary.contrastText'
           sx={{ margin: 1 }}
           component={Link}
           href='https://github.com/joselpadilla'
@@ -29,7 +29,7 @@ const Contact = () => (
           <GitHubIcon sx={{ fontSize: 40 }} />
         </IconButton>
         <IconButton
-          color='primary'
+          color='primary.contrastText'
           sx={{ margin: 1 }}
           component={Link}
           href='https://linkedin.com/in/jose-padilla-07645a95'
